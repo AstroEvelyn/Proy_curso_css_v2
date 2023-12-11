@@ -1,0 +1,118 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(245, 95, 120);
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+h6 {
+    font-size: 25px;
+    padding: 0;
+    margin: 8px 0 0 0 ;
+    color: rgb(255, 0, 85);
+    text-align: center;
+}
+
+h4 {
+    padding-top: 20px;
+    font-size: 20px;
+    color: blueviolet;
+    letter-spacing: 3px;
+}
+
+.grid-container > div {
+    background-color: wheat;
+    padding: 15px;
+    margin: 15px;
+}
+
+/* ALINEACIÓN */
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+/* DECORACIÓN */
+
+.overline {
+    text-decoration: overline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.underline {
+text-decoration: underline;
+}
+
+.overline-underline {
+    text-decoration: overline underline;
+}
+
+/* TRANSFORMACIÓN */
+
+.grid-container01 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(245, 95, 120);
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container01 > div {
+    background-color: wheat;
+    text-align: justify;
+    padding: 15px;
+    margin: 15px;
+}
+
+/* FUENTES */
+
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.cursiva {
+    font-family: 'Lucida handwriting', cursiva;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+.grid-container02 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: rgb(245, 95, 120);
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container02 > div {
+    background-color: wheat;
+    text-align: justify;
+    padding: 15px;
+    margin: 15px;
+}

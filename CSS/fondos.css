@@ -1,0 +1,43 @@
+.grid-container03 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(245, 95, 120);
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container03 > div {
+    text-align: justify;
+    padding: 15px;
+    margin: 15px;
+    width: 25vw;
+    height: 50vw;
+    border: 2px solid gold;
+}
+
+h6 {
+    font-size: 25px;
+    padding: 0;
+    margin: 8px 0 0 0 ;
+    color: rgb(255, 0, 85);
+    text-align: center;
+}
+
+h4 {
+    padding-top: 20px;
+    font-size: 20px;
+    color: blueviolet;
+    letter-spacing: 3px;
+}
+
+.plano {
+    background-color: rgb(255, 0, 208);
+}
+
+.gradiente {
+    background: linear-gradient(to right, gold, rgb(179, 0, 255));
+}
+
+.imagen {
+    background-image: url(../imagen/IMG\ -\ 009.avif);
+}

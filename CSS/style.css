@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 175, 239);
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(158, 75, 174);
+    overflow: auto;
+    margin: 0;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.imgx {
+    padding-right: 0.5em;
+}
+
+.navbar a:hover {
+    background-color: rgb(87, 87, 235);
+    color: white;
+}
+
+.responsive {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .responsive {
+        display: block;
+        float: right;
+        padding: 12px;
+    }
+    a {
+        display: none;
+    }
+}
+
+.introduccion {
+    margin: 0 15%;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 20px;
+    color: rgb(76, 20, 128);
+}
